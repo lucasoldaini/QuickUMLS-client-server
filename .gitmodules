@@ -1,0 +1,6 @@
+[submodule "MinimalServer"]
+	path = MinimalServer
+	url = git@github.com:lucasoldaini/MinimalServer.git
+[submodule "QuickUMLS"]
+	path = QuickUMLS
+	url = git@github.com:Georgetown-IR-Lab/QuickUMLS.git
