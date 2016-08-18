@@ -3,7 +3,6 @@ from argparse import ArgumentParser
 from MinimalServer import run_server
 
 def run_quickumls_server(opts):
-
     matcher = QuickUMLS(
         quickumls_fp=opts.quickumls_fp,
         threshold=opts.threshold,
@@ -22,6 +21,7 @@ if __name__ == '__main__':
     ap.add_argument('-s', '--similarity_name', default='jaccard')
     ap.add_argument('-w', '--window', default=5, type=int)
     opts = ap.parse_args()
-    run_quickqumls_server(opts)
+    run_quickumls_server(opts)
+
 
 
