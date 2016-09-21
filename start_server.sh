@@ -10,5 +10,5 @@ if [ ! -d $QUICKUMLS_DEST ]; then
     cd ..
 fi
 
-python3 quickumls_server.py -P $SERVER_PORT -f $QUICKUMLS_DEST -t $SERVER_THRESHOLD -H 0.0.0.0
+python3 quickumls_server.py -P $SERVER_PORT -f $QUICKUMLS_DEST -t $SERVER_THRESHOLD -H 0.0.0.0 -v
 
