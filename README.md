@@ -6,7 +6,7 @@ On server:
 $ bash start start_server.sh
 ```
 
-On client
+On client:
 
 ```python
 from quickumls_client import get_quickumls_client
