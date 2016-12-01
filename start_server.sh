@@ -1,7 +1,7 @@
 UMLS_PATH="$HOME/irlab/datasets/umls-2015ab/installation/META"
 QUICKUMLS_DEST="cache/QuickUMLS"
 SERVER_PORT=4645
-SERVER_THRESHOLD=0.8
+SERVER_THRESHOLD=0.9
 
 if [ ! -d $QUICKUMLS_DEST ]; then
     cd QuickUMLS
