@@ -1,4 +1,4 @@
-UMLS_PATH="$HOME/irlab/datasets/umls-2015ab/installation/META"
+UMLS_PATH="$HOME/blue-hd/datasets/UMLS/full/META"
 QUICKUMLS_DEST="cache/QuickUMLS"
 SERVER_PORT=4645
 SERVER_THRESHOLD=0.9
