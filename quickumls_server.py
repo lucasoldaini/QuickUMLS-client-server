@@ -1,6 +1,11 @@
-from QuickUMLS.quickumls import QuickUMLS
+try:
+    from QuickUMLS.quickumls import QuickUMLS
+    from MinimalServer import run_server
+except ImportError:
+    from .QuickUMLS.quickumls import QuickUMLS
+    from .MinimalServer import run_server
+
 from argparse import ArgumentParser
-from MinimalServer import run_server
 
 
 def run_quickumls_server(opts):
